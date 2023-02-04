@@ -22,5 +22,3 @@ Você pode utilizar programas como: XAMP, MAMP, WAMP, LAMP e outros.
 
 Se você leu até aqui, significa que gostou do projeto.
 Espero que ele te auxilie em alguma demanda.
-
-Bom proveito e até mais!
