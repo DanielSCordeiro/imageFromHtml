@@ -27,12 +27,9 @@
     async function SalvarImagem(img) {
       let body = new FormData()
           body.append('imagem', img)
-      let salvar = await fetch('salvar.php', {
-        method: 'POST',
-        body
-      })
+      let salvar = await fetch('salvar.php', {method: 'POST', body})
       let res = await salvar.json()
-      if (res.status === 'sucesso') {
+      if (res) {
         alert('A imagem foi salva com sucesso!')
       } else {
         alert('Houve uma falha ao salvar a imagem!')

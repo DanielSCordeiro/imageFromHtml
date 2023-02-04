@@ -5,10 +5,12 @@
   $imagem = $_POST['imagem'];
   if ($imagem) {
 
+    $destino = './imagens/nome.png';
+    $arquivo = file_get_contents($imagem);
+    $resposta = file_put_contents($destino, $arquivo);
 
-    $resposta = array("status" => "sucesso");
   } else {
-    $resposta = array("status" => "falha");
+    $resposta = false;
   }
   // status do processo
   echo json_encode($resposta);
