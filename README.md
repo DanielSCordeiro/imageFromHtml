@@ -15,10 +15,12 @@ Já na versão final, contém a lógica de conexão com o banco de dados SQL, to
 ## Rodando o projeto
 O projeto precisa ser rodado em um ambiente com o PHP configurado.
 
-(basta copiar os arquivos para o servidor e acessar a página index.php - por exemplo: www.nomedosite.com)
+(basta copiar os arquivos para o servidor e acessar a página index.php)
 No meu caso, como precisava salvar as imagens no meu próprio computador, utilizei um servidor local (MAMP PRO), rodando o projeto em localhost.
 
 Você pode utilizar programas como: XAMP, MAMP, WAMP, LAMP e outros.
 
-Se você leu até aqui, significa que gostou do projeto, espero que ele te auxilie em alguma demanda.
+Se você leu até aqui, significa que gostou do projeto.
+Espero que ele te auxilie em alguma demanda.
+
 Bom proveito e até mais!
